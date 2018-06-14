@@ -1,0 +1,94 @@
+
+/* You can add global styles to this file, and also import other style files */
+
+a {
+    cursor: pointer;
+}
+
+.help-block {
+    font-size: 12px;
+}
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+nav,
+section {
+    display: block;
+    margin: 0;
+    padding: 0;
+}
+
+* {
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+}
+
+html {
+    font-size: 100%;
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+}
+
+html,
+body,
+div,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul,
+li,
+form {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    font-weight: normal;
+}
+
+button,
+input,
+select,
+textarea {
+    margin: 0;
+    padding: 0;
+    border: none;
+    font-family: 'Roboto', sans-serif;
+}
+
+.custfield:focus {
+    outline: none;
+    border: none;
+    box-shadow: none;
+    -moz-box-shadow: none;
+    -webkit-box-shadow: none;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    color: #000000;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover,
+a:focus {
+    text-decoration: none;
+    outline: none;
+}
+
+img {
+    border: none;
+    vertical-align: middle;
+}
